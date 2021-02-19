@@ -1,0 +1,50 @@
+body{background-color:blue;
+    color:white;
+    font-family:arial;
+    font-size:larger;
+    text-align:center
+}
+
+input[type='number']{    
+    font-size:4em;
+    width:2em;
+    box-shadow: inset 5px 5px 5px rgba(0,0,0,.5);
+    border-radius:.1em;
+    text-align:center
+}
+
+#placeOrderTable{
+    display:inline-block;
+    margin:auto;
+    background-color:cornflowerblue;
+    box-shadow:10px 10px 10px rgba(0,0,0,.5);
+    border-collapse :collapse;
+    border:1px solid white;
+}
+
+
+#placeOrderTable td{padding:10px;}
+
+#placeOrderTable input[type='submit']{
+    width:50%;
+    height:4em;
+    display:block;
+    margin:auto;
+}
+
+#ordersTable{
+    width:80%;
+    background-color:cornflowerblue;
+    box-shadow:10px 10px 10px rgba(0,0,0,.5);
+    border-collapse :collapse;
+    border:1px solid white;
+}
+
+#ordersTable td,#ordersTable th{
+    border:1px solid white;
+}
+
+.ordered{background-color:red;}
+.cooked{background-color:orange;}
+.served{background-color:yellow;}
+.paid{background-color:green;}
